@@ -1,0 +1,20 @@
+PODS:
+  - YoutubeDirectLinkExtractor (0.3.1)
+  - YouTubePlayer (0.7.2)
+
+DEPENDENCIES:
+  - YoutubeDirectLinkExtractor
+  - YouTubePlayer
+
+SPEC REPOS:
+  trunk:
+    - YoutubeDirectLinkExtractor
+    - YouTubePlayer
+
+SPEC CHECKSUMS:
+  YoutubeDirectLinkExtractor: de7abd36c0e3bb120b9b372f36450fbf9b51c01e
+  YouTubePlayer: 2b5f2830d8f9b2cde942083211291e382c9e6bd5
+
+PODFILE CHECKSUM: 6fffd7b0ffb8536baefe6f26b84fefd5a7b73f46
+
+COCOAPODS: 1.8.4

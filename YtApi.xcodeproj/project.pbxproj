@@ -3,19 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		246BF93B414A50BBD4B5F4D8 /* Pods_YtApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274808E11FBD0D45B829409A /* Pods_YtApi.framework */; };
 		CE642DE824E68766006B0AE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE642DE724E68766006B0AE0 /* AppDelegate.swift */; };
 		CE642DEA24E68766006B0AE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE642DE924E68766006B0AE0 /* SceneDelegate.swift */; };
 		CE642DEC24E68766006B0AE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE642DEB24E68766006B0AE0 /* ViewController.swift */; };
 		CE642DEF24E68766006B0AE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE642DED24E68766006B0AE0 /* Main.storyboard */; };
 		CE642DF124E68769006B0AE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE642DF024E68769006B0AE0 /* Assets.xcassets */; };
 		CE642DF424E68769006B0AE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE642DF224E68769006B0AE0 /* LaunchScreen.storyboard */; };
+		CE642DFC24E689A8006B0AE0 /* APIkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE642DFB24E689A8006B0AE0 /* APIkey.swift */; };
+		CE642DFE24E6C17B006B0AE0 /* PlaylistData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE642DFD24E6C17B006B0AE0 /* PlaylistData.swift */; };
+		CEB34B1124E7C197006616E4 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB34B1024E7C197006616E4 /* VideoTableViewCell.swift */; };
+		CEB34B1324E7D49B006616E4 /* VideoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB34B1224E7D49B006616E4 /* VideoDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		274808E11FBD0D45B829409A /* Pods_YtApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YtApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66847B06B227729A77C22B91 /* Pods-YtApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YtApi.release.xcconfig"; path = "Target Support Files/Pods-YtApi/Pods-YtApi.release.xcconfig"; sourceTree = "<group>"; };
+		C8DE2909786444A24915150A /* Pods-YtApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YtApi.debug.xcconfig"; path = "Target Support Files/Pods-YtApi/Pods-YtApi.debug.xcconfig"; sourceTree = "<group>"; };
 		CE642DE424E68766006B0AE0 /* YtApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YtApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE642DE724E68766006B0AE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE642DE924E68766006B0AE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,10 @@
 		CE642DF024E68769006B0AE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE642DF324E68769006B0AE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE642DF524E68769006B0AE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE642DFB24E689A8006B0AE0 /* APIkey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIkey.swift; sourceTree = "<group>"; };
+		CE642DFD24E6C17B006B0AE0 /* PlaylistData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistData.swift; sourceTree = "<group>"; };
+		CEB34B1024E7C197006616E4 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		CEB34B1224E7D49B006616E4 /* VideoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				246BF93B414A50BBD4B5F4D8 /* Pods_YtApi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 			children = (
 				CE642DE624E68766006B0AE0 /* YtApi */,
 				CE642DE524E68766006B0AE0 /* Products */,
+				F98D77D6B2C9D69672084E81 /* Pods */,
+				EA0233A7626AB8FA97A33AF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +71,60 @@
 		CE642DE624E68766006B0AE0 /* YtApi */ = {
 			isa = PBXGroup;
 			children = (
+				CE642DFF24E6C284006B0AE0 /* Model */,
+				CE7C18A624E84B370001B0C0 /* Views */,
+				CE7C18A724E84B670001B0C0 /* View Controllers */,
 				CE642DE724E68766006B0AE0 /* AppDelegate.swift */,
 				CE642DE924E68766006B0AE0 /* SceneDelegate.swift */,
-				CE642DEB24E68766006B0AE0 /* ViewController.swift */,
-				CE642DED24E68766006B0AE0 /* Main.storyboard */,
 				CE642DF024E68769006B0AE0 /* Assets.xcassets */,
 				CE642DF224E68769006B0AE0 /* LaunchScreen.storyboard */,
 				CE642DF524E68769006B0AE0 /* Info.plist */,
 			);
 			path = YtApi;
+			sourceTree = "<group>";
+		};
+		CE642DFF24E6C284006B0AE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE642DFD24E6C17B006B0AE0 /* PlaylistData.swift */,
+				CE642DFB24E689A8006B0AE0 /* APIkey.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE7C18A624E84B370001B0C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE642DED24E68766006B0AE0 /* Main.storyboard */,
+				CEB34B1024E7C197006616E4 /* VideoTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE7C18A724E84B670001B0C0 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE642DEB24E68766006B0AE0 /* ViewController.swift */,
+				CEB34B1224E7D49B006616E4 /* VideoDetailViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EA0233A7626AB8FA97A33AF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				274808E11FBD0D45B829409A /* Pods_YtApi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F98D77D6B2C9D69672084E81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8DE2909786444A24915150A /* Pods-YtApi.debug.xcconfig */,
+				66847B06B227729A77C22B91 /* Pods-YtApi.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE642DF824E68769006B0AE0 /* Build configuration list for PBXNativeTarget "YtApi" */;
 			buildPhases = (
+				4458D64A59DBC99FBA5CB938 /* [CP] Check Pods Manifest.lock */,
 				CE642DE024E68766006B0AE0 /* Sources */,
 				CE642DE124E68766006B0AE0 /* Frameworks */,
 				CE642DE224E68766006B0AE0 /* Resources */,
+				40630567FE59C775449ACBBB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +194,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		40630567FE59C775449ACBBB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YtApi/Pods-YtApi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YtApi/Pods-YtApi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YtApi/Pods-YtApi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4458D64A59DBC99FBA5CB938 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YtApi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE642DE024E68766006B0AE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CE642DEC24E68766006B0AE0 /* ViewController.swift in Sources */,
+				CEB34B1324E7D49B006616E4 /* VideoDetailViewController.swift in Sources */,
+				CE642DFC24E689A8006B0AE0 /* APIkey.swift in Sources */,
 				CE642DE824E68766006B0AE0 /* AppDelegate.swift in Sources */,
 				CE642DEA24E68766006B0AE0 /* SceneDelegate.swift in Sources */,
+				CE642DFE24E6C17B006B0AE0 /* PlaylistData.swift in Sources */,
+				CEB34B1124E7C197006616E4 /* VideoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +391,7 @@
 		};
 		CE642DF924E68769006B0AE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8DE2909786444A24915150A /* Pods-YtApi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +410,7 @@
 		};
 		CE642DFA24E68769006B0AE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66847B06B227729A77C22B91 /* Pods-YtApi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
